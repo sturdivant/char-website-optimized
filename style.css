@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    color: white;
+    padding: 10px 20px; 
+    display: flex; 
+    justify-content: space-between; 
+    background: rgba(0,0,0,0.5);
+}
+header ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 10px;
+}
+header a {
+    color: white;
+    text-decoration: none;
+}
+.donate {
+    background: lightskyblue;
+    color: black;
+    padding: 5px 10px;
+}
+.mission-statement {
+    background: url("https://wallpapercave.com/wp/wp11926660.jpg") center/cover no-repeat; 
+    color: white; 
+    min-height: 90vh; 
+    display: flex; 
+    align-items: flex-end; 
+    padding: 20px;
+    text-shadow: 4px 4px 6px black;
+}
+.mission-statement h1 {
+    max-width: 600px
+}
+.section {
+    padding: 40px 20px;
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+}
+.section div {
+    flex: 1;
+}
+.second-one-liner {
+    font-size: 45px;
+    font-weight: bold;
+}
+.vis-button {
+    display: inline-block;
+    background: black;
+    color: white;
+    padding: 10px 15px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+footer {
+    background: black;
+    color: gray;
+    text-align: center;
+    padding: 20px;
+}
+@media (max-width: 200px) {
+    .section {
+        flex-direction: column;
+    }
+}
