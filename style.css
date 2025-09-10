@@ -98,7 +98,7 @@
 }
 
 @media (min-width: 1200px) {
-    .mission-statement h1 {
+    .mission-statement .h1 {
         max-width: 800px;
     }
 
